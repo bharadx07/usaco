@@ -48,8 +48,7 @@ class beads {
 
 	int max = 0;
 	for (int p = 1; p< beads.length; p++) {
-		int maxsides = Math.max(left[p - 1][0], left[p - 1][1])
-					+ Math.max(right[p][0], right[p][1]);
+	    int maxsides = Math.max(left[p - 1][0], left[p - 1][1]) + Math.max(right[p][0], right[p][1]);
 		max = Math.max(max, maxsides);
 	}
 		
